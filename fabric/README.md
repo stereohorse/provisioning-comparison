@@ -15,3 +15,7 @@ $ vagrant up
 ```
 
 ## Run
+
+```bash
+$ fab hello
+```

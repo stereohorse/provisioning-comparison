@@ -36,8 +36,15 @@ Each provisioner will do same steps:
 5. Install Mesos agents
 6. Deploy sample app
 
+Quick info:
+
+Zookeeper is used for distributed coordination.
+Mesos master manages cluster resources.
+Marathon uses these resources to run apps.
+Mesos agents are immediate apps executors & resource manager of each node.
+
 Zookeeper, Mesos master & Marathon are installed in HA mode (on all 3 nodes).
-All vms additionally are Mesos agents nodes.
+All vms are Mesos agents nodes.
 
 ### Endpoints
 
